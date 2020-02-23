@@ -289,11 +289,6 @@ body {
 .likes__list {
     list-style: none;
 }
-
-.results__list {
-    min-height: 850px;
-}
-
 .results__link:link,
 .results__link:visited,
 .likes__link:link,
@@ -548,7 +543,7 @@ body {
 .shopping__list {
     list-style: none;
     max-height: 77rem;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 .shopping__item {
     display: flex;
@@ -589,7 +584,6 @@ body {
     margin-top: 0.4rem;
     margin-right: 1.5rem;
 }
-
 .shopping__delete {
     margin-top: 0.5rem;
     position: absolute;
